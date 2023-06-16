@@ -1,0 +1,406 @@
+@media screen and (min-width: 1720px) {
+  .advertisement-second-wrapper {
+    display: flex;
+    margin: 0 auto;
+  }
+  .advertisement-second {
+    font-size: 86px;
+    font-weight: 900;
+  }
+  .camera-boxes-wrapper {
+    width: 100%;
+  }
+  .camera-whole-wrapper {
+    width: 1603px;
+    margin: 0 auto;
+  }
+
+  .last-camera-box {
+    position: static;
+  }
+  .advertisement-second-wrapper {
+    width: 1717px;
+    max-width: 100%;
+    position: static;
+    height: 115px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  .advertisement-second {
+    position: static;
+    font-size: 96px;
+  }
+  .review-wrapper {
+    position: static;
+    width: 1400px;
+    margin: 0 auto;
+  }
+  .advert-wrapper,
+  .advert-p:first-child {
+    position: static;
+  }
+  .advert-wrapper {
+    justify-content: space-between;
+  }
+  .advert-p:nth-child(2) {
+    margin-left: 0;
+  }
+  .advert-p:last-child {
+    display: none;
+  }
+}
+@media screen and (min-width: 1530px) {
+  .advert-wrapper,
+  .advert-p:first-child {
+    position: static;
+  }
+  .advert-wrapper {
+    justify-content: space-between;
+  }
+  .advert-p:nth-child(2) {
+    margin-left: 0;
+  }
+  .advert-p:last-child {
+    display: none;
+  }
+}
+@media screen and (max-width: 1520px) {
+  /* advert section */
+  .advert-wrapper,
+  .advert-p:first-child,
+  .advert-p:last-child {
+    position: static;
+  }
+  .advert-wrapper {
+    justify-content: space-between;
+    width: 100%;
+  }
+  .advert-p:nth-child(2) {
+    margin-left: 0;
+  }
+  .advert-p {
+    font-size: 8px;
+    margin-right: 0px;
+  }
+  .advert-p:last-child {
+    display: none;
+  }
+
+  /*review section  */
+  .review-section {
+    margin: 0 auto;
+  }
+  .review-wrapper {
+    width: 1280px;
+  }
+  .review-box:last-child {
+    display: none;
+  }
+  /* camera section */
+  .camera-whole-wrapper {
+    width: 1280px;
+    margin: 0 auto;
+  }
+  .last-camera-box {
+    display: none;
+  }
+  /* advertisement second section */
+  .advertisement-second-wrapper {
+    margin-top: 20px;
+    position: static;
+    width: 1280px;
+    height: 84px;
+    margin-bottom: 0px;
+  }
+  .advertisement-second {
+    position: static;
+    font-size: 50px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1330px) {
+  .container {
+    width: 900px;
+  }
+  /* header */
+  .delivery-p {
+    font-size: 16px;
+  }
+  .logo-text {
+    font-size: 24px;
+  }
+  .nav-li {
+    width: 370px;
+  }
+  .nav-a {
+    font-size: 16px;
+  }
+  /* about nikon */
+  .nikon-section-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+  .nikon-pictures {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+  .about-nikon {
+    width: 540px;
+    margin-top: 20px;
+  }
+  /* three box */
+  .three-box {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  /* review wrapper */
+  .review-wrapper {
+    width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 280px 280px;
+    gap: 20px;
+    justify-content: center;
+  }
+  /* help */
+  .help-left-box {
+    width: 300px;
+    margin-left: 50px;
+  }
+  .help-h {
+    font-size: 28px;
+  }
+  .help-p {
+    font-size: 14px;
+  }
+  .help-btn {
+    width: 148px;
+    font-size: 12px;
+  }
+  /* real world */
+  .world-h {
+    font-size: 50px;
+  }
+  /* camera section */
+  .camera-whole-wrapper {
+    width: 900px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .camera-boxes-wrapper {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-gap: 20px;
+    width: 700px;
+    align-items: center;
+  }
+  /* advertisement second */
+  .advertisement-second-wrapper {
+    width: 900px;
+    margin: 0 auto;
+  }
+  .advertisement-second {
+    width: 100%;
+    font-size: 40px;
+  }
+  /* footer */
+  .left-block {
+    margin-right: 80px;
+  }
+  .footer-logo-h {
+    font-size: 35px;
+  }
+  .footer-p {
+    width: 300px;
+    font-size: 18px;
+  }
+  .inp-footer {
+    width: 300px;
+  }
+  .inp-btn {
+    right: 17px;
+    top: 15px;
+  }
+  .footer-h {
+    font-size: 18px;
+  }
+  .footer-li-a {
+    font-size: 16px;
+  }
+  /* playground section */
+  .playground-wrapper {
+    flex-direction: column;
+    height: auto;
+  }
+  .right-box img {
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+  }
+  .left-box {
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+  }
+  .playground-p {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 950px) {
+  body {
+    min-width: fit-content;
+  }
+  .h-fixed {
+    position: static;
+  }
+
+  .container {
+    width: 300px;
+  }
+  /* header */
+
+  .user-img,
+  .nav-h {
+    display: none;
+  }
+  .burger-bar {
+    display: inline-block;
+  }
+  /* about nikon */
+  .nikon-section {
+    margin-bottom: 50px;
+  }
+  .nikon-section-wrapper {
+    padding: 0;
+  }
+  .nikon-pictures {
+    display: none;
+  }
+  .camera-description {
+    width: 300px;
+    margin-right: 0px;
+  }
+  .profile-camera {
+    width: 100%;
+  }
+  .camera-description h3 {
+    font-size: 18px;
+  }
+  .about-nikon {
+    width: 300px;
+  }
+  .review {
+    width: 300px;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .nikon-section-wrapper {
+    margin: 0 auto;
+  }
+  .description-p {
+    font-size: 14px;
+  }
+  .camera-name {
+    font-size: 25px;
+    margin-bottom: 10px;
+  }
+  /* advertisement */
+  .advert-wrapper {
+    width: 100%;
+    justify-content: center;
+  }
+  .advert-p:not(:first-child) {
+    display: none;
+  }
+  /* playground section */
+  .left-box {
+    padding: 10px;
+  }
+  .playground-h {
+    font-size: 20px;
+    padding-top: 10px;
+  }
+  /* included section */
+  .included-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .included-pics-wrapper {
+    flex-direction: column;
+  }
+  .three-box img {
+    width: 300px;
+  }
+  /* review section */
+  .review-h {
+    font-size: 25px;
+  }
+  .review-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  /* help section */
+  .help-wrapper {
+    position: static;
+    margin-top: 30px;
+  }
+  .help-pic {
+    display: none;
+  }
+  .help-left-box {
+    margin-left: 10px;
+  }
+  /* real world section */
+  .world-h {
+    font-size: 30px;
+  }
+  /* camera section */
+  .camera-boxes-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  /* advertisement second */
+  .advertisement-second-wrapper {
+    width: 320px;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .advertisement-second {
+    width: 100%;
+    font-size: 16px;
+  }
+  /* footer  */
+  footer {
+    width: 100%;
+  }
+  .footer-container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+  .right-block {
+    flex-direction: column;
+  }
+  .copyright-footer {
+    flex-direction: column;
+  }
+  .footer-copyright {
+    margin-bottom: 10px;
+  }
+  .left-block {
+    margin: 0px;
+    width: 300px;
+  }
+  .copyright-wrapper {
+    flex-direction: column;
+  }
+  .footer-container {
+    margin-bottom: 30px;
+  }
+  .footer-li-wrapper:not(:last-child) {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}

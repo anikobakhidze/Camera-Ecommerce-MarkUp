@@ -1,0 +1,740 @@
+:root {
+  --black-color: #000000;
+  --white-color: #ffffff;
+}
+body {
+  font-family: "SF Pro Display";
+  background-color: #f0f0f0;
+}
+.d-flex {
+  display: flex;
+}
+/* header */
+.h-fixed {
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  background-color: #f0f0f0;
+}
+.burger-bar {
+  display: none;
+}
+
+.delivery {
+  height: 45px;
+  background-color: var(--black-color);
+  justify-content: center;
+  align-items: center;
+}
+.delivery-p {
+  font-weight: 500;
+  color: var(--white-color);
+  font-size: 18px;
+}
+.container {
+  width: 1280px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.header-wrapper {
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  border-bottom: 2px solid var(--black-color);
+}
+
+.logo-text {
+  margin-left: 5px;
+  font-size: 28px;
+  font-weight: 600;
+  color: var(--black-color);
+}
+
+.nav-li {
+  width: 417px;
+  justify-content: space-between;
+}
+.nav-a {
+  font-size: 17.5px;
+  color: var(--black-color);
+}
+.shop-nav-a {
+  align-items: flex-start;
+}
+.arrow-a {
+  margin-left: 6px;
+  padding-top: 4px;
+}
+.user-img {
+  width: 103px;
+  justify-content: space-between;
+}
+.cart-wrapper {
+  position: relative;
+}
+.notification-cart {
+  position: absolute;
+  top: -2px;
+  left: -6px;
+  width: 14px;
+  height: 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 10px;
+  color: var(--black-color);
+  background-color: #b4e907;
+}
+/* nikon pics section */
+.nikon-section-wrapper {
+  padding-top: 165px;
+  margin-bottom: 57px;
+}
+.nikon-pictures {
+  flex-direction: column;
+  margin-right: 28px;
+}
+.nikon-pic:not(:last-child) {
+  margin-bottom: 30px;
+}
+.nikon-pic-one {
+  border-bottom: 1px solid var(--black-color);
+}
+.camera-description {
+  width: 522px;
+  margin-right: 19px;
+}
+.description-box {
+  margin-top: 20px;
+  border-top: 1px solid #00000080;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.h-wrapper {
+  justify-content: space-between;
+  align-items: center;
+}
+.minus-dash {
+  height: 2px;
+}
+.camera-description h3 {
+  font-size: 21px;
+  font-weight: 500;
+  color: var(--black-color);
+  line-height: 26.1px;
+}
+.description-h {
+  margin-bottom: 10px;
+}
+.description-p {
+  font-size: 17.5px;
+  color: #555555;
+  line-height: 21px;
+}
+.tech-box,
+.shipping-box {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+.about-nikon {
+  width: 631px;
+  flex-direction: column;
+}
+.review {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.camera-name {
+  font-size: 35px;
+  font-weight: 700;
+}
+.price {
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--black-color);
+  margin-bottom: 23px;
+}
+.old-price {
+  font-size: 18px;
+  margin-left: 6px;
+  text-decoration: line-through;
+  color: #00000080;
+}
+.options-p {
+  font-size: 18px;
+  color: var(--black-color);
+  margin-bottom: 10px;
+}
+
+.z5-body {
+  background: var(--black-color);
+  color: var(--white-color);
+  margin-right: 11px;
+}
+.lens-kit,
+.z5-body {
+  padding: 10px;
+  border: 1px solid #000000;
+  font-size: 14px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+.lens-kit {
+  color: var(--black-color);
+}
+.button-wrapper {
+  margin-bottom: 26px;
+}
+.data-wrapper {
+  align-items: center;
+  width: 280px;
+  margin-bottom: 10px;
+}
+.data-picture-wrapper {
+  flex-direction: column;
+  margin-right: 6px;
+  height: 150px;
+  justify-content: space-between;
+}
+.data-p-wrapper {
+  flex-direction: column;
+  justify-content: space-between;
+  width: 222px;
+  height: 137px;
+}
+.nikon-p {
+  font-size: 14px;
+  color: var(--black-color);
+}
+.view-tech-p {
+  font-size: 12px;
+  text-decoration-line: underline;
+  margin-bottom: 41px;
+}
+.add-btn {
+  background-color: #b4e907;
+}
+.buy-wrapper {
+  margin-bottom: 25px;
+}
+.buy-btn,
+.add-btn {
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-right: 15px;
+  font-size: 17px;
+  border: 1px solid #000000;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  border-radius: 100px;
+}
+.buy-btn {
+  color: var(--white-color);
+  background-color: var(--black-color);
+}
+.wrapper-line {
+  width: 100%;
+  height: 1px;
+  margin-bottom: 26px;
+  background-color: var(--black-color);
+}
+.share-wrapper {
+  justify-content: space-between;
+  align-content: center;
+  width: 256px;
+}
+.share-img-wrapper {
+  flex-direction: column;
+  height: 91px;
+  justify-content: space-between;
+  margin-right: 12px;
+}
+.share-p-wrapper {
+  flex-direction: column;
+  justify-content: space-between;
+}
+.same-p {
+  font-size: 17px;
+}
+.questions-p {
+  padding-top: 4px;
+}
+.shipping-p {
+  padding-bottom: 4px;
+}
+.contact-s {
+  text-decoration: underline;
+  color: var(--black-color);
+}
+/* advertisement */
+.advert-wrapper {
+  position: relative;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  background-color: var(--black-color);
+  font-size: 14px;
+  font-weight: 900;
+  color: var(--white-color);
+  line-height: 17px;
+  letter-spacing: 2px;
+  overflow: hidden;
+  margin-bottom: 75px;
+}
+
+.advert-p {
+  margin-right: 25px;
+}
+
+.advert-p:first-child {
+  position: absolute;
+  top: 36%;
+  left: -63px;
+}
+.advert-p:nth-child(2) {
+  margin-left: 239px;
+}
+.advert-p:last-child {
+  position: absolute;
+  right: -216px;
+}
+/* included section */
+.included-pics-wrapper {
+  width: 925px;
+  max-width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto 75px auto;
+}
+.included-h {
+  margin-bottom: 53px;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  color: var(--black-color);
+}
+.included-pics {
+  flex-direction: column;
+  align-items: center;
+  height: 135px;
+}
+
+.included-p {
+  font-size: 17px;
+}
+.nikon-included-p {
+  margin-top: 36.3px;
+}
+.lens-included-p {
+  margin-top: 27.8px;
+}
+.charger-included-p {
+  margin-top: 28.75px;
+}
+.adobe-included-p {
+  margin-top: 26.62px;
+}
+/* playground-section */
+.playground-wrapper {
+  height: 380px;
+  max-height: 100%;
+  border-radius: 20px;
+  background-color: #102b26;
+  margin-bottom: 50px;
+}
+.left-box {
+  width: 640px;
+  color: var(--white-color);
+  margin: 94px 39px auto 84px;
+}
+.playground-h {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.playground-p {
+  width: 521px;
+  font-size: 18px;
+  line-height: 21px;
+}
+.right-box img {
+  border-radius: 0px 0px 20px 20px;
+}
+
+/* three boxes */
+.three-box div {
+  width: 415px;
+  margin-bottom: 83px;
+}
+.three-box div:not(:last-child) {
+  margin-right: 17px;
+}
+.box-img {
+  margin-bottom: 20px;
+}
+.box-h {
+  font-size: 27px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.box-p {
+  font-size: 17px;
+  line-height: 21px;
+}
+/* review */
+
+.review-h {
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.review-box {
+  width: 280px;
+  padding: 40px 20px 41px 20px;
+  background-color: var(--white-color);
+}
+
+.review-box:not(:last-child) {
+  margin-right: 20px;
+}
+.review-box:first-child {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.review-first-h {
+  font-family: "Satoshi";
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.review-p {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+.review-s {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.trustpilot-wrapper {
+  align-items: center;
+}
+.trustpilot-p {
+  font-family: "Satoshi";
+  margin-left: 4px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.world-review-star {
+  justify-content: space-between;
+  margin-bottom: 14px;
+}
+.days-p {
+  font-family: "Roboto";
+  font-size: 12px;
+  font-weight: 300;
+}
+.world-review-h {
+  font-family: "Satoshi";
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+.world-review-p {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  margin-bottom: 8px;
+}
+.line-div {
+  width: 60px;
+  height: 1px;
+  background-color: #d9d9d9;
+  margin-bottom: 13px;
+}
+.world-title {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 700;
+}
+.review-box:last-child {
+  position: sticky;
+  right: -61px;
+}
+.review-wrapper {
+  position: relative;
+  margin-left: 7%;
+  overflow: hidden;
+}
+.review-btn-wrapper {
+  justify-content: center;
+  align-items: center;
+}
+.review-btn {
+  font-size: 17px;
+  border-radius: 100px;
+  border: 1px solid #000000;
+  color: var(--white-color);
+  padding: 10px 48px;
+  background-color: var(--black-color);
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  margin-top: 41px;
+}
+/* help section */
+.help-wrapper {
+  position: relative;
+  margin-top: 245px;
+  margin-bottom: 60px;
+  background-color: #102b26;
+  height: 448px;
+  border-radius: 20px;
+}
+.help-left-box {
+  width: 500px;
+  margin-top: 56px;
+  margin-left: 88px;
+}
+.help-h {
+  font-size: 35px;
+  line-height: 41px;
+  color: var(--white-color);
+  font-weight: 700;
+  line-height: 41px;
+  margin-bottom: 25px;
+}
+.help-p {
+  font-size: 17.5px;
+  color: var(--white-color);
+  margin-bottom: 21px;
+  line-height: 21px;
+}
+.help-btn-wrapper {
+  margin-top: 34px;
+  align-items: center;
+}
+.help-btn {
+  padding: 10px 29px;
+  font-size: 16px;
+  color: #102b26;
+  background-color: var(--white-color);
+  margin-right: 12px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.help-btn-p {
+  font-size: 14px;
+  color: #ffffff80;
+}
+.help-pic {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+/* real world sec */
+.world-wrapper {
+  position: relative;
+  margin-bottom: 51px;
+}
+.world-image {
+  width: 100%;
+}
+.world-img {
+  width: 100%;
+}
+.world-h {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 64px;
+  font-weight: 900;
+  color: var(--white-color);
+}
+/* camera boxes section */
+.camera-whole-wrapper {
+  position: relative;
+  margin-left: 7%;
+  margin-bottom: 100px;
+  overflow: hidden;
+}
+
+.camera-box-h {
+  margin-bottom: 26px;
+  font-size: 34px;
+  font-weight: 700;
+}
+.camera-box-wrapper {
+  width: 300px;
+  padding: 25px;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 20px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+.camera-box-wrapper:not(:last-child) {
+  margin-right: 25px;
+}
+.camera-h {
+  margin-top: 57px;
+  margin-bottom: 10px;
+  font-size: 21px;
+  font-weight: 500;
+}
+.camera-p {
+  margin-bottom: 25px;
+  font-size: 17px;
+  color: rgba(0, 0, 0, 0.6);
+}
+.camera-btn-wrapper {
+  justify-content: space-between;
+}
+.camera-btn {
+  font-size: 16px;
+  padding: 10px 19px;
+  cursor: pointer;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  color: var(--white-color);
+  background-color: var(--black-color);
+}
+.camera-review-wrapper {
+  align-items: center;
+}
+.camera-review-p {
+  margin-right: 5px;
+  font-size: 14px;
+}
+
+.last-camera-box {
+  position: sticky;
+  right: -182px;
+}
+.arrow-wrapper {
+  margin-top: 45px;
+  justify-content: flex-end;
+}
+.arrow-wrapper img:first-child {
+  margin-right: 10px;
+}
+/* advert second */
+.advertisement-second-wrapper {
+  position: relative;
+  overflow: hidden;
+  height: 115px;
+  margin-bottom: 30px;
+}
+.advertisement-second {
+  position: absolute;
+  font-size: 96px;
+  font-weight: 900;
+  left: -10px;
+  white-space: nowrap;
+}
+/* footer section */
+.footer-container {
+  justify-content: space-between;
+  margin-bottom: 67px;
+}
+.footer-wrapper {
+  width: 100%;
+  background-color: #102b26;
+  padding-bottom: 28px;
+}
+.footer-logo {
+  align-items: center;
+  margin-top: 52px;
+  margin-bottom: 33px;
+}
+.footer-logo-h {
+  margin-left: 21px;
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--white-color);
+}
+.footer-p {
+  margin-bottom: 20px;
+  width: 411px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 26px;
+  color: var(--white-color);
+}
+.inp-footer {
+  width: 379px;
+  padding: 15px 10px;
+  height: 54px;
+  border: 1px solid #b3b3b3;
+  border-radius: 10px;
+  background-color: #102b26;
+}
+.inp-footer::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 17px;
+}
+.input-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+.inp-btn {
+  position: absolute;
+  right: 46px;
+  top: 15px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  color: #102b26;
+  background-color: var(--white-color);
+  border: 1.5px solid #102b26;
+}
+.fb-icon {
+  margin-right: 30px;
+}
+.twt-icon {
+  margin-right: 26px;
+}
+.ig-icon {
+  margin-right: 24px;
+}
+.left-block {
+  margin-right: 206px;
+}
+.right-block {
+  margin-top: 66px;
+}
+.footer-h {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: 500;
+  color: var(--white-color);
+}
+.footer-li-wrapper:not(:last-child) {
+  margin-right: 106px;
+}
+.footer-li-a {
+  font-size: 18px;
+  color: #ffffff99;
+}
+.footer-li {
+  margin-bottom: 10px;
+}
+.copyright-wrapper {
+  justify-content: space-between;
+}
+.footer-copyright {
+  font-size: 14px;
+  color: var(--white-color);
+}
+.card-wrapper img:not(:last-child) {
+  margin-right: 12px;
+}
